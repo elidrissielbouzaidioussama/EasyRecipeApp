@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Easy Recipe App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- <header>
+    <h1>Easy Recipe App</h1>
+  </header> -->
+  
+  <main>
+    <div class="container">
+        <h1> Easy Recipe App</h1>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Search recipes by ingredient">
+            <button onclick="addIngrediens()">Add</button>
+            
+        </div>
+        <div id="ingredients-list"></div>
+        <button onclick="getRecipe()" class="searchRecipe">Search</button>
+       
+
+        <section id="recipes" class="recipes">
+            <h2>Recipes</h2>
+            <ul id="recipe-list"></ul>
+          </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

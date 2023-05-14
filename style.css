@@ -1,0 +1,180 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg,#E8F6EF,#E8F6EF); */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    /* background-image: url(imgs/istockphoto-1162008146-612x612.jpeg); */
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+  }
+  
+  /* header h1{
+    color: #434361;
+    padding: 12px 8px 12px 500px;
+  } */
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  .container{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    background: #fff;
+    padding: 40px 200px 100px;
+    border-radius: 10px;
+  }
+  .container h1{
+    color: #002765;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.row input{
+
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.row button{
+    padding: 16px 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #ADA2FF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.recipes{
+    padding: auto;
+}
+ul#recipe-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li.recipe-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .recipe-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+  }
+  .recipe-image img {
+    width: 250px;
+  }
+  .recipe-details {
+    flex-grow: 1;
+  }
+  
+  h3.recipe-name {
+    margin-top: 0;
+  }
+
+  
+  
+  p.recipe-ingredients,
+  p.recipe-instructions {
+    margin-bottom: 10px;
+    white-space: pre-line;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.ingredient-list {
+  /* Add your CSS styles here */
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.ingredient-item{
+    display: inline-block;  
+    align-items: center;
+    justify-content: space-between;
+    background: #C0DEFF;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+.tag{
+    flex: 1;
+     border: none;
+    outline: none;
+    padding: 10px;
+
+}
+.searchRecipe{
+    margin-left: 200px;
+    padding: 16px 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #FFE5F1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
